@@ -1,0 +1,67 @@
+.parent {
+    height: 100vh;
+    display:   grid  ;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: #cc1aaa;
+    gap: 20px;
+    color: white; 
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.parent > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 50px;
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 20px;
+    border-color: black;
+    background-color: #b00909;
+}
+
+#div1 {
+    grid-column: 4 / 3;
+    grid-row: 1 / 2;
+    width: 100%;
+}
+
+#div2 {
+    grid-column: 3 / 2;
+    grid-row: 2 / 3;
+}
+
+#div3 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+#div4 {
+    grid-column: 4 / 5.2;
+    grid-row: 3 / 5;
+}
+
+#div5 {
+    grid-column: 6 / 5 ;
+    grid-row: 3 / 5;
+}
+
+#div6 {
+    grid-column: 4 / 3;
+    grid-row: 3 / 8;
+    background-image: url(valencat.gif);
+    height: 47%;
+ }
+
+#div7 {
+    background-color: #b00909;
+    grid-column: 4 / 3;
+    grid-row: 11 / 6;
+}
+
+#Video{
+    width: 100%;
+    height: 80%;
+}
